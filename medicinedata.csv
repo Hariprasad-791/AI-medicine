@@ -1,0 +1,101 @@
+Batch_ID,Supplier_Name,Shipment_Date,Chemical_Composition_Compliance (%),Packaging_Compliance_Score (1-10),Regulatory_Benchmark_Score (%),Predicted_Compliance_Score (%),Potency (%),Purity (%),Anomaly_Flag,Anomaly_Type,Supplier_Reliability_Score (1-100),Historical_Quality_Score (%),Real_Time_Status,Quality_Threshold (%),Batch_Status
+B001,Medix Pvt. Ltd,2024-12-01,95.0,5,97.7,75.9,95.5,1.8,0,None,69,93.3,Compliant,85,Approved
+B002,Medix Pvt. Ltd,2024-12-02,80.2,10,92.5,86.6,94.3,1.3,0,None,95,79.5,Compliant,85,Rejected
+B003,Medix Pvt. Ltd,2024-12-03,89.6,10,90.0,93.1,95.7,2.3,1,None,63,83.4,Compliant,85,Approved
+B004,PharmaGlobal,2024-12-04,87.9,10,86.5,87.2,94.8,1.1,0,None,72,81.7,Non-Compliant,85,Rejected
+B005,MediCare Inc.,2024-12-05,88.5,9,93.9,90.5,96.3,2.7,0,None,82,89.9,Compliant,85,Approved
+B006,PharmaGlobal,2024-12-06,82.6,10,92.0,84.1,94.7,2.1,0,None,64,88.3,Compliant,85,Rejected
+B007,HealthSupplyCo,2024-12-07,88.6,9,95.7,76.7,97.9,2.5,0,None,89,75.7,Compliant,85,Approved
+B008,MediCare Inc.,2024-12-08,81.8,7,86.0,87.6,97.6,2.5,1,None,88,76.4,Compliant,85,Approved
+B009,Medix Pvt. Ltd,2024-12-09,80.6,10,91.5,79.4,98.6,1.2,0,None,67,90.4,Compliant,85,Approved
+B010,Medix Pvt. Ltd,2024-12-10,98.3,9,92.7,87.5,97.6,2.2,1,Deviation in Composition,92,72.1,Non-Compliant,85,Rejected
+B011,HealthSupplyCo,2024-12-11,87.0,10,88.7,75.2,94.0,1.3,1,None,60,93.0,Non-Compliant,85,Rejected
+B012,Medix Pvt. Ltd,2024-12-12,81.0,9,91.3,92.9,98.3,2.0,1,None,65,88.6,Compliant,85,Approved
+B013,PharmaGlobal,2024-12-13,81.2,7,88.0,92.6,95.1,1.3,0,Deviation in Composition,62,87.2,Compliant,85,Approved
+B014,MediCare Inc.,2024-12-14,88.2,6,96.0,91.5,95.4,1.3,0,Deviation in Composition,73,78.6,Compliant,85,Rejected
+B015,HealthSupplyCo,2024-12-15,97.4,8,91.8,76.3,95.7,2.5,0,Packaging Defect,69,90.4,Compliant,85,Approved
+B016,PharmaGlobal,2024-12-16,89.5,5,85.9,89.3,95.2,2.6,0,None,66,77.3,Compliant,85,Approved
+B017,MediCare Inc.,2024-12-17,91.6,10,92.4,80.3,96.0,1.5,0,None,70,83.4,Compliant,85,Approved
+B018,MediCare Inc.,2024-12-18,82.0,8,89.3,79.7,95.2,1.5,0,None,72,77.5,Compliant,85,Approved
+B019,MediCare Inc.,2024-12-19,87.8,8,96.2,78.4,98.3,2.6,0,None,89,86.0,Compliant,85,Approved
+B020,Medix Pvt. Ltd,2024-12-20,83.2,7,97.0,87.1,96.5,2.8,0,None,94,75.6,Compliant,85,Approved
+B021,HealthSupplyCo,2024-12-21,96.9,9,85.9,82.0,94.3,1.7,1,None,77,80.6,Compliant,85,Approved
+B022,Medix Pvt. Ltd,2024-12-22,94.5,10,95.9,85.1,98.5,2.7,1,None,80,85.7,Compliant,85,Approved
+B023,PharmaGlobal,2024-12-23,91.3,7,91.1,82.1,94.6,1.8,0,None,70,87.0,Compliant,85,Approved
+B024,PharmaGlobal,2024-12-24,96.9,9,92.9,81.1,97.9,1.2,0,Deviation in Composition,75,81.2,Compliant,85,Approved
+B025,MediCare Inc.,2024-12-25,91.9,9,99.8,88.0,98.2,2.2,1,None,76,76.7,Compliant,85,Approved
+B026,Medix Pvt. Ltd,2024-12-26,88.9,8,88.3,91.8,94.8,1.3,1,Packaging Defect,66,86.2,Compliant,85,Approved
+B027,PharmaGlobal,2024-12-27,93.8,10,91.2,88.3,97.1,2.7,0,None,88,93.9,Compliant,85,Rejected
+B028,MediCare Inc.,2024-12-28,95.6,8,92.6,88.6,96.4,2.1,1,Deviation in Composition,75,92.4,Compliant,85,Approved
+B029,PharmaGlobal,2024-12-29,87.0,8,87.3,85.7,98.2,2.3,0,None,84,93.1,Compliant,85,Rejected
+B030,HealthSupplyCo,2024-12-30,86.6,9,95.1,77.5,95.1,1.8,0,Packaging Defect,91,90.0,Compliant,85,Approved
+B031,PharmaGlobal,2024-12-31,83.8,8,85.1,79.4,97.9,1.3,0,None,90,79.0,Compliant,85,Approved
+B032,HealthSupplyCo,2025-01-01,95.8,8,90.2,89.9,96.6,1.2,0,None,75,81.4,Non-Compliant,85,Approved
+B033,HealthSupplyCo,2025-01-02,88.3,6,96.2,82.7,96.4,1.2,1,None,89,82.7,Compliant,85,Approved
+B034,Medix Pvt. Ltd,2025-01-03,82.0,6,86.9,93.2,94.3,2.1,0,None,74,71.1,Compliant,85,Rejected
+B035,PharmaGlobal,2025-01-04,91.6,7,96.9,90.7,96.7,1.6,1,Deviation in Composition,92,71.0,Non-Compliant,85,Approved
+B036,Medix Pvt. Ltd,2025-01-05,91.6,8,91.8,83.4,94.1,1.8,1,None,89,80.2,Compliant,85,Approved
+B037,MediCare Inc.,2025-01-06,82.6,7,95.8,81.8,96.5,1.8,0,None,73,84.8,Compliant,85,Approved
+B038,MediCare Inc.,2025-01-07,96.7,8,99.5,92.0,97.0,2.6,0,None,87,84.9,Compliant,85,Approved
+B039,MediCare Inc.,2025-01-08,88.6,7,93.6,94.4,96.5,1.4,1,None,78,91.9,Compliant,85,Approved
+B040,PharmaGlobal,2025-01-09,87.5,5,85.8,94.4,94.7,2.5,1,None,93,87.9,Compliant,85,Approved
+B041,HealthSupplyCo,2025-01-10,86.2,7,93.3,93.5,96.8,2.9,0,Deviation in Composition,60,87.6,Non-Compliant,85,Approved
+B042,Medix Pvt. Ltd,2025-01-11,97.2,10,99.6,92.6,96.3,2.1,1,Deviation in Composition,75,70.7,Compliant,85,Approved
+B043,PharmaGlobal,2025-01-12,96.3,9,89.2,79.5,98.4,2.5,1,None,87,90.5,Compliant,85,Approved
+B044,Medix Pvt. Ltd,2025-01-13,95.4,5,85.7,94.6,96.8,2.2,0,Packaging Defect,84,84.0,Compliant,85,Approved
+B045,PharmaGlobal,2025-01-14,85.5,9,91.6,93.6,95.4,1.4,1,None,77,76.4,Compliant,85,Approved
+B046,MediCare Inc.,2025-01-15,86.9,5,96.0,88.5,97.1,2.7,0,None,86,75.5,Compliant,85,Approved
+B047,MediCare Inc.,2025-01-16,91.7,7,87.6,87.4,98.3,1.2,1,None,61,75.5,Non-Compliant,85,Approved
+B048,MediCare Inc.,2025-01-17,85.4,9,91.2,77.1,95.7,1.0,1,None,84,80.9,Non-Compliant,85,Approved
+B049,Medix Pvt. Ltd,2025-01-18,82.2,5,89.4,90.7,97.9,2.1,1,None,71,90.7,Compliant,85,Approved
+B050,MediCare Inc.,2025-01-19,80.9,8,91.6,78.1,95.2,1.1,1,Deviation in Composition,80,77.2,Compliant,85,Approved
+B051,PharmaGlobal,2025-01-20,96.7,9,88.4,87.1,94.4,2.2,0,Deviation in Composition,86,83.5,Compliant,85,Approved
+B052,Medix Pvt. Ltd,2025-01-21,88.7,10,88.5,81.1,97.1,1.4,1,Packaging Defect,84,70.9,Compliant,85,Rejected
+B053,HealthSupplyCo,2025-01-22,97.2,5,95.2,94.6,94.8,1.8,1,Packaging Defect,76,73.4,Compliant,85,Approved
+B054,Medix Pvt. Ltd,2025-01-23,89.0,6,98.7,94.9,98.6,2.2,1,None,83,90.5,Compliant,85,Approved
+B055,Medix Pvt. Ltd,2025-01-24,98.8,8,85.9,86.9,96.5,1.8,0,None,87,82.3,Compliant,85,Approved
+B056,HealthSupplyCo,2025-01-25,97.8,5,87.3,83.2,95.2,2.2,0,None,65,89.0,Non-Compliant,85,Approved
+B057,PharmaGlobal,2025-01-26,90.0,5,91.2,90.4,97.6,2.4,0,None,81,94.9,Compliant,85,Approved
+B058,Medix Pvt. Ltd,2025-01-27,84.5,9,91.7,75.7,96.4,2.4,1,None,90,72.3,Compliant,85,Approved
+B059,PharmaGlobal,2025-01-28,91.2,9,95.9,77.2,98.0,2.4,1,None,64,85.8,Compliant,85,Approved
+B060,HealthSupplyCo,2025-01-29,94.1,7,99.9,92.2,95.3,2.8,0,None,68,75.9,Compliant,85,Approved
+B061,HealthSupplyCo,2025-01-30,88.5,7,92.9,78.0,98.1,3.0,1,Deviation in Composition,89,74.0,Non-Compliant,85,Approved
+B062,Medix Pvt. Ltd,2025-01-31,85.5,9,93.9,79.2,97.5,2.6,0,Deviation in Composition,72,85.8,Compliant,85,Approved
+B063,Medix Pvt. Ltd,2025-02-01,97.1,8,86.4,93.5,95.3,2.8,1,None,63,89.8,Compliant,85,Approved
+B064,MediCare Inc.,2025-02-02,87.5,10,95.2,93.7,98.7,1.0,1,None,82,94.5,Compliant,85,Approved
+B065,Medix Pvt. Ltd,2025-02-03,90.5,8,94.4,89.1,97.6,2.0,1,None,79,78.5,Compliant,85,Rejected
+B066,Medix Pvt. Ltd,2025-02-04,95.5,8,89.7,81.6,95.6,1.3,0,None,94,83.8,Compliant,85,Approved
+B067,HealthSupplyCo,2025-02-05,86.0,6,87.2,75.2,96.8,2.4,0,None,86,73.2,Compliant,85,Approved
+B068,HealthSupplyCo,2025-02-06,90.5,6,87.2,93.6,94.5,1.1,1,Deviation in Composition,83,94.3,Non-Compliant,85,Approved
+B069,PharmaGlobal,2025-02-07,95.7,5,85.6,84.9,97.2,2.7,1,None,62,85.3,Compliant,85,Approved
+B070,PharmaGlobal,2025-02-08,93.4,9,88.3,89.4,95.3,1.2,1,Deviation in Composition,72,93.3,Compliant,85,Approved
+B071,Medix Pvt. Ltd,2025-02-09,86.3,10,92.0,94.9,98.1,2.7,0,Deviation in Composition,95,74.1,Compliant,85,Rejected
+B072,Medix Pvt. Ltd,2025-02-10,85.2,6,92.7,75.0,97.7,2.4,1,Packaging Defect,94,78.7,Non-Compliant,85,Approved
+B073,MediCare Inc.,2025-02-11,97.6,7,92.7,85.2,97.0,2.7,1,None,71,73.4,Compliant,85,Rejected
+B074,PharmaGlobal,2025-02-12,93.5,9,97.1,94.8,96.6,1.7,0,None,89,72.3,Non-Compliant,85,Approved
+B075,MediCare Inc.,2025-02-13,91.3,5,91.6,77.8,97.8,2.1,0,Deviation in Composition,94,93.3,Non-Compliant,85,Approved
+B076,HealthSupplyCo,2025-02-14,97.9,7,94.5,87.8,94.9,1.7,0,None,63,94.2,Compliant,85,Rejected
+B077,HealthSupplyCo,2025-02-15,84.3,8,85.3,91.4,95.8,1.7,0,Deviation in Composition,72,88.8,Non-Compliant,85,Approved
+B078,HealthSupplyCo,2025-02-16,90.0,5,89.9,76.3,94.3,1.4,1,None,64,86.5,Non-Compliant,85,Rejected
+B079,HealthSupplyCo,2025-02-17,98.1,10,88.9,79.5,97.2,2.9,1,Deviation in Composition,69,93.2,Non-Compliant,85,Approved
+B080,HealthSupplyCo,2025-02-18,91.4,5,95.6,87.9,95.2,1.6,0,None,85,70.8,Compliant,85,Approved
+B081,PharmaGlobal,2025-02-19,92.0,9,97.5,75.6,95.0,1.9,1,Deviation in Composition,73,84.6,Non-Compliant,85,Approved
+B082,PharmaGlobal,2025-02-20,97.8,8,96.3,90.1,94.6,1.3,0,None,87,71.1,Compliant,85,Approved
+B083,MediCare Inc.,2025-02-21,82.7,10,93.4,93.2,96.4,1.9,1,Deviation in Composition,69,86.2,Compliant,85,Rejected
+B084,HealthSupplyCo,2025-02-22,95.7,8,89.3,91.1,97.4,1.5,0,None,83,93.3,Compliant,85,Approved
+B085,MediCare Inc.,2025-02-23,98.2,8,86.9,84.9,98.8,2.1,1,None,77,90.8,Compliant,85,Rejected
+B086,HealthSupplyCo,2025-02-24,84.1,10,98.0,91.7,94.2,2.4,0,None,76,91.8,Non-Compliant,85,Rejected
+B087,PharmaGlobal,2025-02-25,96.2,10,98.2,82.4,97.6,2.2,1,None,95,71.8,Compliant,85,Approved
+B088,MediCare Inc.,2025-02-26,80.1,5,85.8,77.4,97.9,1.6,1,None,65,78.8,Non-Compliant,85,Approved
+B089,Medix Pvt. Ltd,2025-02-27,89.7,6,88.0,91.5,95.0,1.6,0,Deviation in Composition,79,85.1,Compliant,85,Approved
+B090,Medix Pvt. Ltd,2025-02-28,86.5,7,99.0,94.8,97.8,1.3,1,None,67,91.5,Compliant,85,Approved
+B091,HealthSupplyCo,2025-03-01,93.0,6,99.4,82.8,98.1,1.6,1,None,90,84.1,Compliant,85,Approved
+B092,Medix Pvt. Ltd,2025-03-02,94.9,7,87.3,93.2,97.2,2.9,0,None,72,80.9,Non-Compliant,85,Approved
+B093,HealthSupplyCo,2025-03-03,91.7,10,95.0,92.2,96.1,1.0,0,None,94,76.1,Compliant,85,Approved
+B094,MediCare Inc.,2025-03-04,88.3,8,97.6,92.4,98.8,1.2,1,Deviation in Composition,67,77.9,Compliant,85,Approved
+B095,Medix Pvt. Ltd,2025-03-05,86.1,6,90.4,90.0,95.1,1.8,1,Deviation in Composition,93,90.7,Non-Compliant,85,Approved
+B096,HealthSupplyCo,2025-03-06,98.3,10,95.0,77.4,96.2,3.0,1,Packaging Defect,82,73.9,Compliant,85,Rejected
+B097,PharmaGlobal,2025-03-07,82.1,5,93.8,94.0,97.8,2.9,1,Deviation in Composition,69,73.6,Non-Compliant,85,Approved
+B098,MediCare Inc.,2025-03-08,98.0,6,94.1,85.9,95.2,1.4,1,None,88,76.4,Compliant,85,Approved
+B099,Medix Pvt. Ltd,2025-03-09,87.5,7,99.3,93.3,98.1,1.1,0,Deviation in Composition,76,82.8,Compliant,85,Approved
+B100,MediCare Inc.,2025-03-10,98.8,6,90.1,87.3,96.0,2.2,1,None,64,74.4,Compliant,85,Rejected
