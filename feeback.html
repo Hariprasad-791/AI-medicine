@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: url('feeb.jpg') no-repeat center center/cover;
+            background-attachment: fixed;
+            color: #fff;
+        }
+
+        .feedback-container {
+            width: 400px;
+            background: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+            border-radius: 10px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+            padding: 30px;
+            backdrop-filter: blur(10px);
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+            color: #333;
+        }
+
+        .form-group input,
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            outline: none;
+            font-size: 14px;
+            background: #f4f4f4;
+            transition: border 0.3s ease;
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus,
+        .form-group select:focus {
+            border-color: #ff9a9e;
+            box-shadow: 0 0 8px rgba(255, 154, 158, 0.6);
+        }
+
+        .btn {
+            width: 100%;
+            padding: 14px;
+            background: #ff9a9e;
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .btn:hover {
+            background: #fad0c4;
+            transform: translateY(-3px);
+        }
+
+        .message {
+            margin-top: 15px;
+            text-align: center;
+            font-size: 16px;
+        }
+
+        .message.success {
+            color: #28a745;
+        }
+
+        .message.error {
+            color: #dc3545;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            .feedback-container {
+                width: 90%;
+                padding: 20px;
+            }
+
+            h2 {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="feedback-container">
+        <h2>Feedback Form</h2>
+        <form id="feedback-form">
+            <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="rating">How would you rate your experience?</label>
+                <select id="rating" required>
+                    <option value="" disabled selected>Select a rating</option>
+                    <option value="Excellent">Excellent</option>
+                    <option value="Good">Good</option>
+                    <option value="Average">Average</option>
+                    <option value="Poor">Poor</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="message">Your Feedback</label>
+                <textarea id="message" rows="5" placeholder="Share your feedback" required></textarea>
+            </div>
+            <button type="submit" class="btn">Submit Feedback</button>
+        </form>
+        <div id="feedback-response" class="message"></div>
+    </div>
+
+    <script>
+        // JavaScript to handle form submission
+        document.getElementById('feedback-form').addEventListener('submit', function (event) {
+            event.preventDefault(); // Prevent form from refreshing the page
+
+            const name = document.getElementById('name').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const rating = document.getElementById('rating').value;
+            const message = document.getElementById('message').value.trim();
+
+            if (!name || !email || !rating || !message) {
+                document.getElementById('feedback-response').innerText = "Please fill in all fields.";
+                document.getElementById('feedback-response').style.color = "red";
+                return;
+            }
+
+            // Simulate form submission
+            document.getElementById('feedback-response').innerText = "Thank you for your feedback!";
+            document.getElementById('feedback-response').classList.add('success');
+            document.getElementById('feedback-response').classList.remove('error');
+
+            // Reset the form
+            document.getElementById('feedback-form').reset();
+        });
+    </script>
+</body>
+</html>
